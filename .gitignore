@@ -1,0 +1,60 @@
+# Kubernetes specific ignores
+# ---------------------------
+*.bak
+*.old
+*.tmp
+*.log
+*.swp
+*.swo
+._*
+.DS_Store
+Thumbs.db
+profile.ps1
+profile.bat
+secrets/*
+kubeconfig
+*.kubeconfig
+*.crt
+*.key
+*.csr
+*.pfx
+*.pem
+*.tpl
+*.template
+output/
+bin/
+dist/
+target/
+tmp/
+vendor/
+node_modules/
+.env # Added .env here
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.kube/cache
+.kube/http-cache
+
+# IDE specific ignores
+# --------------------
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+tmp/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
